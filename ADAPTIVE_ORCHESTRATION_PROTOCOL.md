@@ -18,7 +18,7 @@
 - **status:** public portable protocol
 - **version:** 6.5
 - **language:** English
-- **protocol semantics as of:** 2026-10-10
+- **protocol semantics as of:** 2026-11-21
 - **canonical identity migration:** 2026-09-27; formerly Chat–Work Routing Protocol, Chat–Work Router and Chat–Work; identity and paths changed while the 6.1 doctrine remained unchanged, under the repository naming/versioning rule
 - **product/model calibration boundary:** recheck dated adapter notes and official documentation before relying on volatile names, availability, limits, pricing, subagent controls or inheritance behavior
 - **primary implementation:** surface-neutral control-root routing across ChatGPT Chat, Work and Codex, where available
