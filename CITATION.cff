@@ -1,0 +1,30 @@
+cff-version: 1.2.0
+message: >-
+  Cite the Adaptive Orchestration Protocol source and preserve the applicable
+  license, author attribution and change notice. The current protocol version
+  is 6.4; independent repository promotion preserves its prior lineage.
+title: "Adaptive Orchestration Protocol"
+type: software
+version: "6.4"
+date-released: 2026-10-10
+authors:
+  - given-names: "Lua Helena Moon"
+    family-names: "Martins Cardoso"
+    alias: "Moon"
+    website: "https://www.luahelena.com.br/ia/?lang=en"
+repository-code: "https://github.com/luahelenammc/Adaptive-Orchestration-Protocol"
+url: "https://www.luahelena.com.br/moonsource/?lang=en"
+license: "CC-BY-4.0"
+license-url: "https://creativecommons.org/licenses/by/4.0/"
+abstract: >-
+  Adaptive Orchestration Protocol is a model-neutral method for routing AI
+  work across control roots, execution surfaces, capability, behavioral fit,
+  decision commitment, effort and delegation while preserving continuity,
+  evidence, convergence and acceptance. It originated in Moon Source and is
+  independently versioned at 6.4.
+keywords:
+  - AI orchestration
+  - execution routing
+  - delegation
+  - human-AI collaboration
+  - decision commitment

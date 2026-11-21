@@ -1,0 +1,21 @@
+version = 1
+
+[[annotations]]
+path = ["*.md", "**/*.md", "*.cff", "*.json", "NOTICE", "LICENSE", "REUSE.toml", ".gitignore"]
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Lua Helena Moon Martins Cardoso (Moon)"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+[[annotations]]
+path = ["scripts/*.py", ".github/workflows/*.yml"]
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Lua Helena Moon Martins Cardoso (Moon)"
+SPDX-License-Identifier = "Apache-2.0"
+
+[[annotations]]
+path = ["downloads/*.zip", "downloads/skills/*.zip"]
+precedence = "override"
+SPDX-FileCopyrightText = "2026 Lua Helena Moon Martins Cardoso (Moon)"
+SPDX-License-Identifier = "CC-BY-4.0"
+
+# Standard license texts under LICENSES/ are reproduced verbatim.

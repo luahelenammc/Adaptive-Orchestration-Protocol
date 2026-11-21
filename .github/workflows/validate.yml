@@ -1,0 +1,26 @@
+# SPDX-FileCopyrightText: 2026 Lua Helena Moon Martins Cardoso (Moon)
+# SPDX-License-Identifier: Apache-2.0
+name: Validate AOP source and packages
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    branches: [main]
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Verify deterministic packages
+        run: python scripts/build_packages.py --check
+      - name: Validate source and distributions
+        run: python scripts/validate.py
