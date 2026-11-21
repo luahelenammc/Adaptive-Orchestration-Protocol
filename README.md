@@ -19,7 +19,7 @@ For straightforward work, the core asks for a proportional placement pass. For s
 
 | Artifact | Version | Role |
 |---|---:|---|
-| [AOP core](ADAPTIVE_ORCHESTRATION_PROTOCOL.md) | 6.4 | Sole semantic authority |
+| [AOP core](ADAPTIVE_ORCHESTRATION_PROTOCOL.md) | 6.5 | Sole semantic authority |
 | [Astra adapter](adapters/ADAPTIVE_ORCHESTRATION_ASTRA_ADAPTER.md) | 2.1 | Optional strategy and dated model-family calibration |
 | [GPT-6 Sol/Luna adapter](adapters/ADAPTIVE_ORCHESTRATION_GPT6_SOL_LUNA_ADAPTER.md) | 2.1 | Dated executor, delegation and product-boundary calibration |
 | [GPT-6.1 Terra adapter](adapters/ADAPTIVE_ORCHESTRATION_GPT6_TERRA_ADAPTER.md) | 1.1 | Dated visual, computer-use and coding calibration |

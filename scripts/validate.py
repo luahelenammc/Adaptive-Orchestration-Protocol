@@ -9,13 +9,13 @@ ROOT=Path(__file__).resolve().parents[1]
 CORE="ADAPTIVE_ORCHESTRATION_PROTOCOL.md"
 ADAPTERS=["adapters/ADAPTIVE_ORCHESTRATION_ASTRA_ADAPTER.md","adapters/ADAPTIVE_ORCHESTRATION_GPT6_SOL_LUNA_ADAPTER.md","adapters/ADAPTIVE_ORCHESTRATION_GPT6_TERRA_ADAPTER.md","adapters/ADAPTIVE_ORCHESTRATION_GROK_BOT_ADAPTER.md"]
 MEMBERS=[CORE,*ADAPTERS]
-EXPECTED={CORE:"6.4",ADAPTERS[0]:"2.1",ADAPTERS[1]:"2.1",ADAPTERS[2]:"1.1",ADAPTERS[3]:"1.0"}
+EXPECTED={CORE:"6.5",ADAPTERS[0]:"2.1",ADAPTERS[1]:"2.1",ADAPTERS[2]:"1.1",ADAPTERS[3]:"1.0"}
 errors=[]
 def need(ok,msg):
  if not ok: errors.append(msg)
 core=(ROOT/CORE).read_text(encoding="utf-8")
 need("https://github.com/luahelenammc/Adaptive-Orchestration-Protocol" in core,"core canonical repository metadata missing")
-need("remains independently versioned at 6.4" in core,"stale independent version metadata")
+need("remains independently versioned at 6.5" in core,"stale independent version metadata")
 need("Adaptive Orchestration Protocol 6.3 is the current public release" not in core,"stale 6.3 current-release claim")
 need("Adaptive Orchestration remains independently versioned at 6.3" not in core,"stale 6.3 lifecycle claim")
 for path,version in EXPECTED.items():
