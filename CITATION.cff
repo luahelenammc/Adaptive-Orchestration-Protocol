@@ -2,11 +2,11 @@ cff-version: 1.2.0
 message: >-
   Cite the Adaptive Orchestration Protocol source and preserve the applicable
   license, author attribution and change notice. The current protocol version
-  is 6.4; independent repository promotion preserves its prior lineage.
+  is 6.5; independent repository promotion preserves its prior lineage.
 title: "Adaptive Orchestration Protocol"
 type: software
-version: "6.4"
-date-released: 2026-10-10
+version: "6.5"
+date-released: 2026-11-21
 authors:
   - given-names: "Lua Helena Moon"
     family-names: "Martins Cardoso"
@@ -21,7 +21,7 @@ abstract: >-
   work across control roots, execution surfaces, capability, behavioral fit,
   decision commitment, effort and delegation while preserving continuity,
   evidence, convergence and acceptance. It originated in Moon Source and is
-  independently versioned at 6.4.
+  independently versioned at 6.5.
 keywords:
   - AI orchestration
   - execution routing

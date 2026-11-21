@@ -21,7 +21,7 @@
 
 ## 1. Why this adapter exists
 
-GPT-6 changes the practical executor geometry, and current subagent support makes heterogeneous model delegation a first-class execution option under Adaptive Orchestration 6.4. The 6.4 core is surface-neutral, behavior-aware and commitment-aware: Sol/Luna topology does not require Chat to be the control root when Work or Codex can retain objective, convergence and postflight, and capability sufficiency does not erase behavioral-fit or commitment-fit differences between executors.
+GPT-6 changes the practical executor geometry, and current subagent support makes heterogeneous model delegation a first-class execution option under Adaptive Orchestration 6.5. The 6.5 core is surface-neutral, behavior-aware and commitment-aware: Sol/Luna topology does not require Chat to be the control root when Work or Codex can retain objective, convergence and postflight, and capability sufficiency does not erase behavioral-fit or commitment-fit differences between executors.
 
 At launch, OpenAI positions:
 
@@ -39,7 +39,7 @@ A named model can span more than one semantic tier. A semantic tier does not req
 
 ## 2026-11-18 — Sol version-family resolver and GPT-6.2 evidence calibration
 
-**Version-aware routing is subordinate to the existing AOP 6.4 model-neutral strategy.** The public Sol/Luna adapter keeps exactly one independent semantic identity, preserves Luna as the bounded-bulk executor, and introduces three *internal* released-Sol microadapters. The model version does not select the human-authorized execution profile, mandate, control root, autonomy, mutation authority or delegation topology.
+**Version-aware routing is subordinate to the existing AOP 6.5 model-neutral strategy.** The public Sol/Luna adapter keeps exactly one independent semantic identity, preserves Luna as the bounded-bulk executor, and introduces three *internal* released-Sol microadapters. The model version does not select the human-authorized execution profile, mandate, control root, autonomy, mutation authority or delegation topology.
 
 ### Sol Version Resolver — exact identity before capability inference
 
@@ -92,7 +92,7 @@ For complex coding, professional deliverables, computer use and agentic workflow
 
 The previous 2026-09-29 GPT-6.1 Sol versus **GPT-6.0 Astra** comparison below remains historical reference only. Do not reuse its $2/$10 and $10/$50 pair as a current comparison with 6.2 Astra, or equate API unit prices with Work/Codex subscription allowances. New Sol and Astra have separate model IDs; the Astra adapter 2.1 owns the explicit 6.0/6.1-unreleased/6.2 microadapter resolver. The cancelled **Astra 6.1** should never be conflated with released **Sol 6.1**.
 
-Under user-opted-in Maximum Token Economy/Plus Economy, retain the existing conditional Terra-first *candidate* only if that task's measured capability and behavioral/commitment fit support acceptance. Since the 6.2 release changes the economic and quality frontier, reevaluate the Terra/Sol/Astra selection using actual runtime availability and total cost to accepted work; do not make Terra an unavoidable sacrificial probe. This update is a dated calibration, **not** a change to the AOP 6.4 model-neutral core.
+Under user-opted-in Maximum Token Economy/Plus Economy, retain the existing conditional Terra-first *candidate* only if that task's measured capability and behavioral/commitment fit support acceptance. Since the 6.2 release changes the economic and quality frontier, reevaluate the Terra/Sol/Astra selection using actual runtime availability and total cost to accepted work; do not make Terra an unavoidable sacrificial probe. This update is a dated calibration, **not** a change to the AOP 6.5 model-neutral core.
 
 Sources: [OpenAI GPT-6.2 launch](https://openai.com/index/introducing-gpt-6-2-astra-sol/), [GPT-6.2 Sol API model](https://developers.openai.com/api/docs/models/gpt-6.2-sol), [GPT-6.2 Astra API model](https://developers.openai.com/api/docs/models/gpt-6.2-astra), [Astra adapter](ADAPTIVE_ORCHESTRATION_ASTRA_ADAPTER.md).
 

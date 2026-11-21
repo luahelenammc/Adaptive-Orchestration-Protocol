@@ -9,7 +9,7 @@
 
 - **adapter version:** 1.0
 - **as of:** 2026-11-17
-- **parent:** [Adaptive Orchestration Protocol 6.4](../ADAPTIVE_ORCHESTRATION_PROTOCOL.md)
+- **parent:** [Adaptive Orchestration Protocol 6.5](../ADAPTIVE_ORCHESTRATION_PROTOCOL.md)
 - **primary host:** xAI Grok Bot, a persistent computer-using agent with named Bots, shared tools, skills and routines
 - **secondary scope:** other persistent agents **only where equivalent capabilities have been observed**
 - **status:** public field-derived procedure, not a token-use benchmark
@@ -123,7 +123,7 @@ No calibrated token ratios, channel multipliers, globally optimal cadence, repre
 
 ## Claim ceiling and attribution
 
-This adapter derives a provider-specific procedure from a sanitized field note and publicly documented Grok Bot affordances. It is not xAI-endorsed, a benchmark, an official rate card, a guarantee of token savings or proof of currently available features on any particular account. The model-neutral AOP 6.4 remains sovereign; this adapter governs only valid host-specific execution options.
+This adapter derives a provider-specific procedure from a sanitized field note and publicly documented Grok Bot affordances. It is not xAI-endorsed, a benchmark, an official rate card, a guarantee of token savings or proof of currently available features on any particular account. The model-neutral AOP 6.5 remains sovereign; this adapter governs only valid host-specific execution options.
 
 ---
 

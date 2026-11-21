@@ -10,7 +10,7 @@
 - **status:** current subordinate adapter
 - **adapter version:** 1.1
 - **as of:** 2026-10-26
-- **governing capability:** [Adaptive Orchestration Protocol](../ADAPTIVE_ORCHESTRATION_PROTOCOL.md), version 6.4
+- **governing capability:** [Adaptive Orchestration Protocol](../ADAPTIVE_ORCHESTRATION_PROTOCOL.md), version 6.5
 - **scope:** GPT-6.1 Terra in ChatGPT Work, Codex and the API where actually exposed; visual reasoning, desktop/computer use, bounded writing, scoped coding, cost/latency and task acceptance
 - **authority:** subordinate, high-volatility model evidence; the AOP canonical body and user-authorized execution profile win on conflict
 - **creator:** Lua Helena Moon Martins Cardoso (Moon)
