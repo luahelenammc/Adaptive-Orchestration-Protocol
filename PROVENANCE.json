@@ -1,0 +1,25 @@
+{
+  "adapter_versions": {
+    "astra": "2.1",
+    "gpt6_sol_luna": "2.1",
+    "gpt6_terra": "1.1",
+    "grok_bot": "1.0"
+  },
+  "destination_repository": "https://github.com/luahelenammc/Adaptive-Orchestration-Protocol",
+  "origin_branch": "main",
+  "origin_commit": "6ec5d7910b561b392b114a1c7b64695a41e4716a",
+  "origin_repository": "https://github.com/luahelenammc/Moon-Source",
+  "protocol_version": "6.4",
+  "source_composite_zip_sha256": "4e9c5360a2595c8466639e784a1d13b44d536c8a4135be7a1c02152e782060ad",
+  "source_file_sha256": {
+    "ADAPTIVE_ORCHESTRATION_PROTOCOL.md": "c4a48dee2d7f2114530418ce9fce076a56388062ec59581625ba9f86e8147cc0",
+    "adapters/ADAPTIVE_ORCHESTRATION_ASTRA_ADAPTER.md": "b192023a9227159c85ea5c0ad83f74c7cef45d490c4b68d17cefff18f0d0a2ea",
+    "adapters/ADAPTIVE_ORCHESTRATION_GPT6_SOL_LUNA_ADAPTER.md": "8181e1aa04bc1763a8bbc785c0c48e89b021458fdb6bc1d0f269afc9578b91cb",
+    "adapters/ADAPTIVE_ORCHESTRATION_GPT6_TERRA_ADAPTER.md": "dbee36ed1309a290c6f84271bf31bf69faf128161f2438ae07999172dfee86ba",
+    "adapters/ADAPTIVE_ORCHESTRATION_GROK_BOT_ADAPTER.md": "3c755e09a425894463a42f3b2602649ee7cd4ad365248555aec68f764d75f54d"
+  },
+  "source_legacy_chat_work_zip_sha256": "4e9c5360a2595c8466639e784a1d13b44d536c8a4135be7a1c02152e782060ad",
+  "source_skill_zip_sha256": "39160396dac2779afec3145104f4ad575a1f12cf9b65e17a731a71b630433789",
+  "transformation": "Canonical Markdown was transplanted from the cited origin commit. Changes are limited to independent repository identity and canonical links, stale current-release metadata, source attribution footer and compatibility wording; historical release content remains intact. No routing doctrine was rewritten and no Git history was rewritten.",
+  "transplant_date": "2026-11-20"
+}
