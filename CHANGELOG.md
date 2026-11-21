@@ -3,6 +3,10 @@
 
 # Changelog
 
+## 6.5 — 2026-11-21
+
+- Add function-based phase placement, intent-preserving handoffs, decision-bearing receipts and proportionate independent review. Preserve competent roots and human authority.
+
 This changelog follows the AOP lineage across its former Chat–Work identity. Repository promotion does not reset semantic versioning. Source commits remain in the original repository and are linked below; this repository begins with an honest snapshot rather than rewritten Git history.
 
 ## 2026-11-20 — Independent repository promotion · AOP 6.4

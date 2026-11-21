@@ -13,7 +13,7 @@
 - **first public release:** 2026-09-09
 - **last material update:** 2026-11-18
 - **lineage:** 1.0 initial public strategy adapter → 1.1 total-work efficiency calibration → 1.2 mandatory setup/customization contract and tighter Chat–Work integration → 1.3 heterogeneous delegation geometry under Chat–Work 6.0 → 1.4 surface-neutral control-root alignment under Chat–Work 6.1 → 1.5 official Astra prompting/skills calibration → 1.6 delegated-bundle and worker-ownership calibration from credited external mechanism study → 1.7 GPT-6.1 Sol / Maximum Token Economy compatibility → 1.8 Adaptive Orchestration 6.2 Behavioral Fit compatibility → 1.9 Adaptive Orchestration 6.3 Commitment Geometry compatibility → 2.0 evidence-backed GPT-6.1 Sol / Astra capability-cost calibration → 2.1 Astra 6.0/6.1/6.2 version-family resolution, unreleased-version tombstone, GPT-6.2 verification and efficiency calibration
-- **applies to:** Adaptive Orchestration Protocol 6.4
+- **applies to:** Adaptive Orchestration Protocol 6.5
 - **effective date:** 2026-11-18
 - **governing canonical body:** `../ADAPTIVE_ORCHESTRATION_PROTOCOL.md`
 - **canonical release lineage:** introduced under Chat–Work 5.1, updated through Chat–Work 6.0 Delegation-First orchestration and aligned to the surface-neutral control-root model in Chat–Work 6.1; those releases are the same lineage now named Adaptive Orchestration Protocol, whose current body uses the unversioned filename ADAPTIVE_ORCHESTRATION_PROTOCOL.md
@@ -37,7 +37,7 @@ This adapter makes Astra configurable without allowing Astra-specific habits or 
 
 ## Astra Version Family Resolver and microadapters — 2026-11-18
 
-**Model version is a routing input, not a new source of authority.** Preserve the existing Astra Setup Contract, Strategy Profile, reference presets, control-root ownership, mutation authorization and AOP 6.4 core. Resolve the *actual* model identity and accessible surface before applying a version-specific behavior overlay. The 6.0, 6.1 and 6.2 entries below live **inside this one adapter**; there are no three competing model routers and no three duplicated Astra Setup contracts.
+**Model version is a routing input, not a new source of authority.** Preserve the existing Astra Setup Contract, Strategy Profile, reference presets, control-root ownership, mutation authorization and AOP 6.5 core. Resolve the *actual* model identity and accessible surface before applying a version-specific behavior overlay. The 6.0, 6.1 and 6.2 entries below live **inside this one adapter**; there are no three competing model routers and no three duplicated Astra Setup contracts.
 
 ### Version-selection contract
 
@@ -739,7 +739,7 @@ These are routing diagnoses, not claims about the model's private internals.
 
 ## Historical relationship to Adaptive Orchestration 6.3 (superseded)
 
-**Current Astra adapter version: 2.1; current governing router: Adaptive Orchestration 6.4.** The following paragraph describes the former 6.3 compatibility stage; this adapter remains subordinate and independently tracked.
+**Current Astra adapter version: 2.1; current governing router: Adaptive Orchestration 6.5.** The following paragraph describes the former 6.3 compatibility stage; this adapter remains subordinate and independently tracked.
 
 Adaptive Orchestration 6.3 inherits Commitment Geometry as well as Delegation-First and heterogeneous topology. This adapter may apply the Decision Commitment Gate to a bounded high-leverage decision, but frontier capability must be shown to change that decision; Astra does not become a universal executor, default aesthetic arbiter or second router.
 
