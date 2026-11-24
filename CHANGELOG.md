@@ -3,6 +3,13 @@
 
 # Changelog
 
+## 6.6 — 2026-11-24
+
+- Extend Behavioral Fit to the control root's pragmatic interpretation, semantic continuity, legitimate steerability, bounded initiative, feedback adaptation and authorship.
+- Include material avoidable Human Rework Burden in routing economics; distinguish wanted participation and necessary safeguards. Add bounded behavioral drift recovery and a specific failure classification without another router or universal score.
+- Update Sol/Luna adapter to 2.2 with the distinct November 23 Chat deployment and evaluation boundaries. Astra 2.1, Terra 1.1 and Grok Bot 1.0 retain their semantics.
+- Add a [CFP-01–10 desk review and empirical probe specification](docs/COLLABORATIVE_FIT_REGRESSION_2026-11-24.md); no empirical comparative performance is claimed.
+
 ## 6.5 — 2026-11-21
 
 - Add function-based phase placement, intent-preserving handoffs, decision-bearing receipts and proportionate independent review. Preserve competent roots and human authority.

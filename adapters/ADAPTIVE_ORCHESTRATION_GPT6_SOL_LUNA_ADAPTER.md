@@ -8,8 +8,8 @@
 ## Meta
 
 - **status:** current subordinate adapter
-- **adapter version:** 2.1
-- **as of:** 2026-11-18
+- **adapter version:** 2.2
+- **as of:** 2026-11-24
 - **governing capability:** [Adaptive Orchestration Protocol](../ADAPTIVE_ORCHESTRATION_PROTOCOL.md)
 - **scope:** GPT-6.0, 6.1 and 6.2 Sol version-aware microadapters plus GPT-6 Luna routing across Chat, Work and Codex where available, with dated Chat-vs-Work model-variant boundaries, heterogeneous subagent topology, child-model inheritance/overrides, token-economy profiles, behavioral-fit calibration, commitment-bearing decision routing and API/product-boundary reasoning about executor choice
 - **authority:** subordinate; the canonical Adaptive Orchestration body wins on conflict
@@ -36,6 +36,16 @@ The core semantic tiers remain:
 `efficient | balanced | strong | frontier`
 
 A named model can span more than one semantic tier. A semantic tier does not require a dedicated named model.
+
+## 2026-11-24 — Chat deployment calibration and Collaborative Fit
+
+OpenAI's [November 23 Chat release notes](https://help.openai.com/en/articles/6825453-chatgpt-release-notes) identify a conversation-tuned GPT-6.2 Sol variant rolling out in the chat tab for Plus, Pro, Business and Enterprise. This is distinct from the November 17 Work/Codex/API rollout. Verify actual host exposure, selected identity and available controls; do not infer the API model ID, tool access, child model controls, context limit, effort settings or pricing from the Chat label.
+
+The [Chat system card, alignment section](https://deploymentsafety.openai.com/gpt-6-2-chatgpt/alignment) reports targeted steerability pass rates of 60.6% for October 7 GPT-6 Sol and 48.6% for November 23 GPT-6.2 Sol; targeted compliance was 76.6% and 78.1%, respectively. The evaluation used 87 steerability and 738 compliance cases, lowest deployed reasoning effort, external tools disabled, with ten and two responses per case respectively. The provider also reports stronger higher-priority instruction handling and editing fidelity in some tests. The [November 17 execution-family targeted cases](https://deploymentsafety.openai.com/gpt-6-2-astra-sol/targeted-cases) report steerability gains in their own comparison. These distinct evaluation settings are not interchangeable; neither is an estimate of ordinary user failure rates or a mandate to accept false premises.
+
+Community observations about tone, context, initiative and rework motivate task-specific probes only. The November 24 community scan had incomplete coverage (Reddit API rate limit); no representative sentiment estimate or causal ranking is claimed. For source-grounded collaboration and control-root choice, apply AOP 6.6 §5 Collaborative Fit and bounded recovery. Keep an established suitable root or fallback when evidence warrants; do not automatically upgrade, downgrade, or increase effort. Compare actual variant/surface, equivalent authorized context, instructions, task and acceptance; record material avoidable human rework separately from wanted collaboration. Restore a missing source or instruction conflict before attributing failure to the model. Preserve all authority, safety and verification boundaries.
+
+The following November 18 entries remain historical execution-family calibration, not current Chat availability claims.
 
 ## 2026-11-18 — Sol version-family resolver and GPT-6.2 evidence calibration
 

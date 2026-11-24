@@ -13,15 +13,15 @@ AOP originated in [Moon Source](https://github.com/luahelenammc/Moon-Source) and
 
 Read the [canonical protocol](ADAPTIVE_ORCHESTRATION_PROTOCOL.md#first-use) before a task where routing choices matter. Give its instructions to the AI or compatible agent handling the work. The protocol uses only capabilities, tools, permissions and workers actually exposed by that environment; it does not create access to them.
 
-For straightforward work, the core asks for a proportional placement pass. For sustained or high-cost work, it keeps a competent control root, routes reducible bulk to sufficient available execution, tests uncertain behavior when acceptance depends on it, resolves high-leverage commitments before dependent work scales, and closes with evidence. The [full body](ADAPTIVE_ORCHESTRATION_PROTOCOL.md) defines the operative rules and claim limits.
+For straightforward work, the core asks for a proportional placement pass. For sustained or high-cost work, it keeps a competent control root, routes reducible bulk to sufficient available execution, tests uncertain behavior when acceptance depends on it, resolves high-leverage commitments before dependent work scales, and closes with evidence. Version 6.6 also evaluates collaborative fit of the control root and avoidable human rework, with conditional recovery from behavioral drift. See the [Collaborative Fit regression review](docs/COLLABORATIVE_FIT_REGRESSION_2026-11-24.md). The [full body](ADAPTIVE_ORCHESTRATION_PROTOCOL.md) defines the operative rules and claim limits.
 
 ## Current release set
 
 | Artifact | Version | Role |
 |---|---:|---|
-| [AOP core](ADAPTIVE_ORCHESTRATION_PROTOCOL.md) | 6.5 | Sole semantic authority |
+| [AOP core](ADAPTIVE_ORCHESTRATION_PROTOCOL.md) | 6.6 | Sole semantic authority |
 | [Astra adapter](adapters/ADAPTIVE_ORCHESTRATION_ASTRA_ADAPTER.md) | 2.1 | Optional strategy and dated model-family calibration |
-| [GPT-6 Sol/Luna adapter](adapters/ADAPTIVE_ORCHESTRATION_GPT6_SOL_LUNA_ADAPTER.md) | 2.1 | Dated executor, delegation and product-boundary calibration |
+| [GPT-6 Sol/Luna adapter](adapters/ADAPTIVE_ORCHESTRATION_GPT6_SOL_LUNA_ADAPTER.md) | 2.2 | Dated executor, delegation and product-boundary calibration |
 | [GPT-6.1 Terra adapter](adapters/ADAPTIVE_ORCHESTRATION_GPT6_TERRA_ADAPTER.md) | 1.1 | Dated visual, computer-use and coding calibration |
 | [Grok Bot adapter](adapters/ADAPTIVE_ORCHESTRATION_GROK_BOT_ADAPTER.md) | 1.0 | Persistent-agent and source-freshness procedures |
 

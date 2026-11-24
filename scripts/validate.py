@@ -9,13 +9,13 @@ ROOT=Path(__file__).resolve().parents[1]
 CORE="ADAPTIVE_ORCHESTRATION_PROTOCOL.md"
 ADAPTERS=["adapters/ADAPTIVE_ORCHESTRATION_ASTRA_ADAPTER.md","adapters/ADAPTIVE_ORCHESTRATION_GPT6_SOL_LUNA_ADAPTER.md","adapters/ADAPTIVE_ORCHESTRATION_GPT6_TERRA_ADAPTER.md","adapters/ADAPTIVE_ORCHESTRATION_GROK_BOT_ADAPTER.md"]
 MEMBERS=[CORE,*ADAPTERS]
-EXPECTED={CORE:"6.5",ADAPTERS[0]:"2.1",ADAPTERS[1]:"2.1",ADAPTERS[2]:"1.1",ADAPTERS[3]:"1.0"}
+EXPECTED={CORE:"6.6",ADAPTERS[0]:"2.1",ADAPTERS[1]:"2.2",ADAPTERS[2]:"1.1",ADAPTERS[3]:"1.0"}
 errors=[]
 def need(ok,msg):
  if not ok: errors.append(msg)
 core=(ROOT/CORE).read_text(encoding="utf-8")
 need("https://github.com/luahelenammc/Adaptive-Orchestration-Protocol" in core,"core canonical repository metadata missing")
-need("remains independently versioned at 6.5" in core,"stale independent version metadata")
+need("remains independently versioned at 6.6" in core,"stale independent version metadata")
 need("Adaptive Orchestration Protocol 6.3 is the current public release" not in core,"stale 6.3 current-release claim")
 need("Adaptive Orchestration remains independently versioned at 6.3" not in core,"stale 6.3 lifecycle claim")
 for path,version in EXPECTED.items():
@@ -37,6 +37,10 @@ if (ROOT/"downloads/skills/moon-adaptive-orchestration.zip").exists():
   required={base+"SKILL.md",base+"references/PROVENANCE.json",base+"LICENSE-CC-BY-4.0.txt",base+"references/ADAPTIVE_ORCHESTRATION_PROTOCOL.md",*(base+"references/"+p for p in ADAPTERS)}
   need(required<=names,"skill ZIP is missing a declared reference, provenance or license")
   provenance=json.loads(z.read(base+"references/PROVENANCE.json"))
+  need(provenance["source_version"]==EXPECTED[CORE],"skill provenance version mismatch")
+  need(z.read(base+"SKILL.md")== (ROOT/"skills/moon-adaptive-orchestration/SKILL.md").read_bytes(),"skill frontend bytes differ")
+  for path in MEMBERS:
+   need(z.read(base+"references/"+path)==(ROOT/path).read_bytes(),f"skill reference bytes differ: {path}")
   for path,digest in provenance["included_reference_sha256"].items():
    need(base+path in names,f"skill provenance points to missing package path: {path}")
    if base+path in names: need(hashlib.sha256(z.read(base+path)).hexdigest()==digest,f"skill reference hash mismatch: {path}")
