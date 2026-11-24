@@ -1,7 +1,7 @@
 {
   "adapter_versions": {
     "astra": "2.1",
-    "gpt6_sol_luna": "2.1",
+    "gpt6_sol_luna": "2.2",
     "gpt6_terra": "1.1",
     "grok_bot": "1.0"
   },
@@ -9,7 +9,7 @@
   "origin_branch": "main",
   "origin_commit": "6ec5d7910b561b392b114a1c7b64695a41e4716a",
   "origin_repository": "https://github.com/luahelenammc/Moon-Source",
-  "protocol_version": "6.5",
+  "protocol_version": "6.6",
   "source_composite_zip_sha256": "4e9c5360a2595c8466639e784a1d13b44d536c8a4135be7a1c02152e782060ad",
   "source_file_sha256": {
     "ADAPTIVE_ORCHESTRATION_PROTOCOL.md": "c4a48dee2d7f2114530418ce9fce076a56388062ec59581625ba9f86e8147cc0",
@@ -22,5 +22,5 @@
   "source_skill_zip_sha256": "39160396dac2779afec3145104f4ad575a1f12cf9b65e17a731a71b630433789",
   "transformation": "Canonical Markdown was transplanted from the cited origin commit. Changes are limited to independent repository identity and canonical links, stale current-release metadata, source attribution footer and compatibility wording; historical release content remains intact. No routing doctrine was rewritten and no Git history was rewritten.",
   "transplant_date": "2026-11-20",
-  "release_note": "6.5 adds phase placement, intent lock, evidence return and review independence; transplant hashes below remain historical origin evidence."
+  "release_note": "6.6 extends Behavioral Fit to collaborative roots, human rework and conditional drift recovery; origin transplant hashes remain historical evidence, not current package hashes."
 }
