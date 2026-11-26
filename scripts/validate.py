@@ -9,13 +9,13 @@ ROOT=Path(__file__).resolve().parents[1]
 CORE="ADAPTIVE_ORCHESTRATION_PROTOCOL.md"
 ADAPTERS=["adapters/ADAPTIVE_ORCHESTRATION_ASTRA_ADAPTER.md","adapters/ADAPTIVE_ORCHESTRATION_GPT6_SOL_LUNA_ADAPTER.md","adapters/ADAPTIVE_ORCHESTRATION_GPT6_TERRA_ADAPTER.md","adapters/ADAPTIVE_ORCHESTRATION_GROK_BOT_ADAPTER.md"]
 MEMBERS=[CORE,*ADAPTERS]
-EXPECTED={CORE:"6.6",ADAPTERS[0]:"2.1",ADAPTERS[1]:"2.2",ADAPTERS[2]:"1.1",ADAPTERS[3]:"1.0"}
+EXPECTED={CORE:"6.7",ADAPTERS[0]:"2.1",ADAPTERS[1]:"2.2",ADAPTERS[2]:"1.1",ADAPTERS[3]:"1.0"}
 errors=[]
 def need(ok,msg):
  if not ok: errors.append(msg)
 core=(ROOT/CORE).read_text(encoding="utf-8")
 need("https://github.com/luahelenammc/Adaptive-Orchestration-Protocol" in core,"core canonical repository metadata missing")
-need("remains independently versioned at 6.6" in core,"stale independent version metadata")
+need("remains independently versioned at 6.7" in core,"stale independent version metadata")
 need("Adaptive Orchestration Protocol 6.3 is the current public release" not in core,"stale 6.3 current-release claim")
 need("Adaptive Orchestration remains independently versioned at 6.3" not in core,"stale 6.3 lifecycle claim")
 for path,version in EXPECTED.items():
@@ -24,6 +24,8 @@ for path,version in EXPECTED.items():
  need(any(version in line for line in version_lines), f"version marker missing or changed: {path}")
  need("MOON-SOURCE-PUBLIC-STAMP" not in text, f"Moon Source ownership stamp remains in standalone artifact: {path}")
 need("https://github.com/luahelenammc/Moon-Source/blob/main/portables/adaptive-orchestration/ADAPTIVE_ORCHESTRATION_PROTOCOL.md" not in core,"core points to old canonical path")
+need("### Copy-Safe Link Transport" in core and "final user-visible report" in core and "one per line" in core and "independently resolve relevant locators" in core,"copy-safe transport contract missing")
+need("Copy-Safe Link Transport" in (ROOT/"skills/moon-adaptive-orchestration/SKILL.md").read_text(encoding="utf-8"),"skill does not project copy-safe transport")
 need("moon-adaptive-orchestration" in (ROOT/"skills/moon-adaptive-orchestration/SKILL.md").read_text(encoding="utf-8"),"skill slug missing")
 if (ROOT/"downloads/adaptive-orchestration-protocol.zip").exists():
  with zipfile.ZipFile(ROOT/"downloads/adaptive-orchestration-protocol.zip") as z:
