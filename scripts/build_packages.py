@@ -39,7 +39,7 @@ def skill_bytes() -> bytes:
     hashes = {name: hashlib.sha256(data).hexdigest() for name,data in refs.items()}
     provenance = {
         "source_repository": "https://github.com/luahelenammc/Adaptive-Orchestration-Protocol",
-        "source_version": "6.6",
+        "source_version": "6.7",
         "canonical_path": CORE,
         "included_reference_sha256": hashes,
         "creator": "Lua Helena Moon Martins Cardoso (Moon)",

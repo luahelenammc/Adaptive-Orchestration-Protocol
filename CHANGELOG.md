@@ -3,6 +3,12 @@
 
 # Changelog
 
+## 6.7 — 2026-11-26
+
+- Preserve essential authorized evidence URLs as literal copyable locators in final reports transferred manually between surfaces; rich UI links alone are insufficient.
+- Require sender-side manifest checking and receiving-root verification; identify unavailable or restricted locators and preserve surface neutrality and proportionality.
+- Project the rule into the Agent Skill and package checks. Structural checks do not demonstrate model compliance. All four adapter versions remain unchanged.
+
 ## 6.6 — 2026-11-24
 
 - Extend Behavioral Fit to the control root's pragmatic interpretation, semantic continuity, legitimate steerability, bounded initiative, feedback adaptation and authorship.
