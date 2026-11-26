@@ -1,0 +1,34 @@
+# SPDX-FileCopyrightText: 2026 Lua Helena Moon Martins Cardoso (Moon)
+# SPDX-License-Identifier: Apache-2.0
+name: Temporary copy-safe release package build
+on:
+  push:
+    branches: ["upstream/copy-safe-link-transport-6.7"]
+permissions:
+  contents: read
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.x"
+      - name: Build and verify canonical packages
+        run: |
+          python scripts/build_packages.py
+          python scripts/build_packages.py --check
+          python scripts/validate.py
+      - name: Emit public package bytes for authorized branch update
+        run: |
+          python - <<'PY'
+          import base64, hashlib
+          from pathlib import Path
+          for path in ("downloads/adaptive-orchestration-protocol.zip", "downloads/skills/moon-adaptive-orchestration.zip"):
+              data = Path(path).read_bytes()
+              print("PACKAGE_BEGIN " + path + " " + hashlib.sha256(data).hexdigest())
+              encoded = base64.b64encode(data).decode()
+              for i in range(0, len(encoded), 120):
+                  print("PACKAGE_DATA " + encoded[i:i+120])
+              print("PACKAGE_END " + path)
+          PY
